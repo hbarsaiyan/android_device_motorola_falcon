@@ -18,6 +18,10 @@
 
 DEVICE_PATH := device/motorola/falcon
 
+# Vendor Unification Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_falcon
+TARGET_RECOVERY_DEVICE_MODULES := libinit_falcon
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := xt1031,xt1032,xt1033,xt1034,falcon_umts,falcon_umtsds,falcon_cdma,falcon_retuaws,falcon,falcon_gpe
 
