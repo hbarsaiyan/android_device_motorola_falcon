@@ -15,9 +15,9 @@
 //
 
 cc_library_static {
-    name: "libinit_titan",
+    name: "libinit_falcon",
     recovery_available: true,
-    srcs: ["init_titan.cpp"],
+    srcs: ["init_falcon.cpp"],
     include_dirs: [
         "system/core/init",
     ],

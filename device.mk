@@ -21,7 +21,7 @@ $(call inherit-product, vendor/motorola/falcon/falcon-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += device/motorola/falcon
+#PRODUCT_SOONG_NAMESPACES += device/motorola/falcon
 
 # Audio configuration
 PRODUCT_COPY_FILES += \

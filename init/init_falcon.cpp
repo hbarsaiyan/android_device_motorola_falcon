@@ -37,7 +37,6 @@
 #include <android-base/properties.h>
 #include "vendor_init.h"
 #include "property_service.h"
-#include "log.h"
 using android::base::GetProperty;
 using android::init::property_set;
 
@@ -60,10 +59,6 @@ void property_override_dual(char const system_prop[], char const vendor_prop[], 
 
 void vendor_load_properties()
 {
-    std::string platform = GetProperty("ro.board.platform", "");
-    if (platform != ANDROID_TARGET)
-        return;
-
     property_override("ro.product.model", "Moto G");
 
     std::string radio = GetProperty("ro.boot.radio", "");
@@ -168,7 +163,7 @@ void vendor_load_properties()
 
     std::string device = GetProperty("ro.product.device", "");
     LOG(INFO) << "Found radio id: '" << radio.c_str() << "', setting build properties for '" << device.c_str() << "' device\n";
-	
+
 	// Init a dummy BT MAC address, will be overwritten later
     property_set("ro.boot.btmacaddr", "00:00:00:00:00:00");
 }
