@@ -1,1 +1,1 @@
-add_lunch_combo superior_falcon-userdebug
+add_lunch_combo potato_falcon-userdebug
