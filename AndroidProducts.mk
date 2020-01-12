@@ -15,4 +15,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_falcon.mk \
-    $(LOCAL_DIR)/superior_falcon.mk
+    $(LOCAL_DIR)/colt_falcon.mk
