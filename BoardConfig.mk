@@ -34,7 +34,7 @@ BOARD_GLOBAL_CFLAGS += -DCAMERA_VENDOR_L_COMPAT
 TARGET_KERNEL_CONFIG := falcon_defconfig
 
 # Disable basic dexpreopt enabled from msm8226-common
-WITH_DEXPREOPT := true
+#WITH_DEXPREOPT := true
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_falcon
