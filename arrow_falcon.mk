@@ -1,7 +1,7 @@
 $(call inherit-product, device/motorola/falcon/full_falcon.mk)
 
-# Inherit some common Aosp stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 
