@@ -16,6 +16,7 @@
 
 # call the proprietary setup
 $(call inherit-product, vendor/motorola/falcon/falcon-vendor.mk)
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
