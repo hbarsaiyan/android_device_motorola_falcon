@@ -15,4 +15,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_falcon.mk \
-    $(LOCAL_DIR)/arrow_falcon.mk
+    $(LOCAL_DIR)/stag_falcon.mk
