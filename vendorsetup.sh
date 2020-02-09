@@ -1,1 +1,1 @@
-add_lunch_combo arrow_falcon-userdebug
+add_lunch_combo stag_falcon-userdebug
