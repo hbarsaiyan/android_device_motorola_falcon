@@ -14,5 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_falcon.mk \
-    $(LOCAL_DIR)/aosp_falcon.mk
+    $(LOCAL_DIR)/superior_falcon.mk
+
+COMMON_LUNCH_CHOICES := \
+    superior_falcon-userdebug
